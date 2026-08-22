@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kingblaqnem.github.io/blaqnem-website/sitemap.xml
