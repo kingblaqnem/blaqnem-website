@@ -1030,6 +1030,33 @@ nav a.active::after{
 }
 
 /* ====================================
+   PRESS DETAILS
+==================================== */
+
+.press-details {
+    margin: 1.5rem 0 0;
+    display: grid;
+    gap: 0.75rem;
+}
+
+.press-details div {
+    display: grid;
+    grid-template-columns: minmax(130px, 0.8fr) 1.4fr;
+    gap: 1rem;
+    align-items: baseline;
+}
+
+.press-details dt {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.press-details dd {
+    margin: 0;
+}
+
+/* ====================================
    CONNECT
 ==================================== */
 
@@ -1457,3 +1484,28 @@ body{
 
 }
 
+
+/* Blaqnem HQ content enhancements */
+.hero-description,
+.discography-intro {
+    max-width: 760px;
+    margin: 18px auto 0;
+    line-height: 1.8;
+    opacity: .85;
+}
+
+.discography-intro {
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+#press .story-text p {
+    line-height: 1.8;
+}
+
+@media (max-width: 700px) {
+    .hero-description,
+    .discography-intro {
+        padding: 0 18px;
+    }
+}

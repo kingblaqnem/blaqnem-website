@@ -33,64 +33,73 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
 <link rel="stylesheet" href="style.css">
 
+    <meta name="theme-color" content="#0b0b0b">
+    <meta name="application-name" content="Blaqnem Official">
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "MusicGroup",
-      "@id": "https://kingblaqnem.github.io/blaqnem-website/#blaqnem",
-      "name": "Blaqnem",
-      "alternateName": "BlaQ'n'em",
-      "url": "https://kingblaqnem.github.io/blaqnem-website/",
-      "image": "https://kingblaqnem.github.io/blaqnem-website/images/hero.png",
-      "description": "Blaqnem is a Nigerian rapper from Gwagwalada, Abuja, who began making music in 2020. His music draws from hip-hop, Afrobeat and storytelling-driven influences.",
-      "genre": ["Hip-Hop", "Rap", "Afrodrill", "Afrobeats"],
-      "sameAs": [
-        "https://www.youtube.com/@Blaqnem",
-        "https://www.instagram.com/whosisfrancis/",
-        "https://www.tiktok.com/@blaqnem",
-        "https://x.com/AstaBlaQnem",
-        "https://web.facebook.com/profile.php?id=100094619631383",
-        "https://open.spotify.com/artist/5T5vs5ucWtXxPaSog1E7ZE",
-        "https://music.apple.com/ng/artist/blaqnem/1694209630",
-        "https://audiomack.com/blaqnem"
-      ],
-      "member": {
-        "@type": "Person",
-        "name": "Blaqnem",
-        "jobTitle": "Rapper",
-        "homeLocation": {
-          "@type": "Place",
-          "name": "Gwagwalada, Abuja, Nigeria"
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://kingblaqnem.github.io/blaqnem-website/#blaqnem",
+          "name": "Blaqnem",
+          "alternateName": "BlaQ'n'em",
+          "url": "https://kingblaqnem.github.io/blaqnem-website/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://kingblaqnem.github.io/blaqnem-website/#blaqnem-image",
+            "url": "https://kingblaqnem.github.io/blaqnem-website/images/hero.png",
+            "caption": "Blaqnem — Nigerian rapper from Gwagwalada, Abuja"
+          },
+          "jobTitle": "Rapper and Recording Artist",
+          "description": "Blaqnem is a Nigerian rapper from Gwagwalada, Abuja, who began making music in 2020. His sound draws from hip-hop, rap, Afrodrill and Afrobeats, shaped by influences including Stormzy, Dave, Burna Boy, Damian Marley and Eminem.",
+          "homeLocation": {
+            "@type": "Place",
+            "name": "Gwagwalada, Abuja, Nigeria"
+          },
+          "sameAs": [
+            "https://www.youtube.com/@Blaqnem",
+            "https://www.instagram.com/whosisfrancis/",
+            "https://www.tiktok.com/@blaqnem",
+            "https://x.com/AstaBlaQnem",
+            "https://web.facebook.com/profile.php?id=100094619631383",
+            "https://open.spotify.com/artist/5T5vs5ucWtXxPaSog1E7ZE",
+            "https://music.apple.com/ng/artist/blaqnem/1694209630",
+            "https://audiomack.com/blaqnem"
+          ]
         },
-        "sameAs": [
-          "https://www.youtube.com/@Blaqnem",
-          "https://www.instagram.com/whosisfrancis/",
-          "https://www.tiktok.com/@blaqnem",
-          "https://x.com/AstaBlaQnem",
-          "https://web.facebook.com/profile.php?id=100094619631383"
-        ]
-      },
-      "subjectOf": {
-        "@type": "WebPage",
-        "@id": "https://kingblaqnem.github.io/blaqnem-website/#discography"
-      }
-    }
-    </script>
-
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ItemList",
-      "name": "Blaqnem Discography",
-      "url": "https://kingblaqnem.github.io/blaqnem-website/#discography",
-      "itemListElement": [
-        {"@type":"ListItem","position":1,"item":{"@type":"MusicSingle","name":"Lucy","datePublished":"2026","byArtist":{"@type":"MusicGroup","name":"Blaqnem"}}},
-        {"@type":"ListItem","position":2,"item":{"@type":"MusicSingle","name":"Pack 'N Leave","datePublished":"2026","byArtist":{"@type":"MusicGroup","name":"Blaqnem"}}},
-        {"@type":"ListItem","position":3,"item":{"@type":"MusicSingle","name":"Letter To Stormzy","datePublished":"2024","byArtist":{"@type":"MusicGroup","name":"Blaqnem"}}},
-        {"@type":"ListItem","position":4,"item":{"@type":"MusicAlbum","name":"Genesis","datePublished":"2024","byArtist":{"@type":"MusicGroup","name":"Blaqnem"}}},
-        {"@type":"ListItem","position":5,"item":{"@type":"MusicSingle","name":"Toughest Soldiers","datePublished":"2023","byArtist":{"@type":"MusicGroup","name":"Blaqnem"}}},
-        {"@type":"ListItem","position":6,"item":{"@type":"MusicSingle","name":"Sick Pain","datePublished":"2023","byArtist":{"@type":"MusicGroup","name":"Blaqnem"}}}
+        {
+          "@type": "WebSite",
+          "@id": "https://kingblaqnem.github.io/blaqnem-website/#website",
+          "url": "https://kingblaqnem.github.io/blaqnem-website/",
+          "name": "Blaqnem Official Website",
+          "description": "The official website of Nigerian rapper Blaqnem.",
+          "publisher": { "@id": "https://kingblaqnem.github.io/blaqnem-website/#blaqnem" }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://kingblaqnem.github.io/blaqnem-website/#webpage",
+          "url": "https://kingblaqnem.github.io/blaqnem-website/",
+          "name": "Blaqnem | Official Website | Nigerian Rapper & Artist",
+          "isPartOf": { "@id": "https://kingblaqnem.github.io/blaqnem-website/#website" },
+          "about": { "@id": "https://kingblaqnem.github.io/blaqnem-website/#blaqnem" },
+          "mainEntity": { "@id": "https://kingblaqnem.github.io/blaqnem-website/#blaqnem" },
+          "primaryImageOfPage": { "@id": "https://kingblaqnem.github.io/blaqnem-website/#blaqnem-image" }
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://kingblaqnem.github.io/blaqnem-website/#discography-list",
+          "name": "Blaqnem Discography",
+          "itemListElement": [
+            {"@type":"ListItem","position":1,"item":{"@type":"MusicSingle","name":"Lucy","datePublished":"2026","byArtist":{"@id":"https://kingblaqnem.github.io/blaqnem-website/#blaqnem"}}},
+            {"@type":"ListItem","position":2,"item":{"@type":"MusicSingle","name":"Pack 'N Leave","datePublished":"2026","byArtist":{"@id":"https://kingblaqnem.github.io/blaqnem-website/#blaqnem"}}},
+            {"@type":"ListItem","position":3,"item":{"@type":"MusicSingle","name":"Letter To Stormzy","datePublished":"2024","byArtist":{"@id":"https://kingblaqnem.github.io/blaqnem-website/#blaqnem"}}},
+            {"@type":"ListItem","position":4,"item":{"@type":"MusicAlbum","name":"Genesis","datePublished":"2024","byArtist":{"@id":"https://kingblaqnem.github.io/blaqnem-website/#blaqnem"}}},
+            {"@type":"ListItem","position":5,"item":{"@type":"MusicSingle","name":"Toughest Soldiers","datePublished":"2023","byArtist":{"@id":"https://kingblaqnem.github.io/blaqnem-website/#blaqnem"}}},
+            {"@type":"ListItem","position":6,"item":{"@type":"MusicSingle","name":"Sick Pain","datePublished":"2023","byArtist":{"@id":"https://kingblaqnem.github.io/blaqnem-website/#blaqnem"}}}
+          ]
+        }
       ]
     }
     </script>
@@ -133,6 +142,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
         <li><a href="#gallery">Gallery</a></li>
 
+        <li><a href="#press">Press</a></li>
+
         <li><a href="#contact">Contact</a></li>
 
     </ul>
@@ -151,6 +162,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
     <p class="genre">
         Melodic Rap • Afrodrill • Afrobeats
+    </p>
+
+    <p class="hero-description">
+        Blaqnem is a Nigerian rapper from Gwagwalada, Abuja, making music since 2020.
     </p>
 
     <button class="hero-btn open-stream">
@@ -402,7 +417,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     <h2>DISCOGRAPHY</h2>
 
     <p class="sound-subtitle">
-        The Blaqnem release timeline.
+        The official Blaqnem release timeline, from 2023 through 2026.
+    </p>
+
+    <p class="discography-intro">
+        Blaqnem's catalogue documents his growth as a Nigerian rapper and recording artist.
+        His releases include the 2023 singles <strong>Toughest Soldiers</strong> and <strong>Sick Pain</strong>,
+        the 2024 project <strong>Genesis</strong> and single <strong>Letter To Stormzy</strong>, followed by the 2026 releases
+        <strong>Pack 'N Leave</strong> and <strong>Lucy</strong>.
     </p>
 
     <div class="sound-card">
@@ -572,6 +594,43 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 </section>
 
 <!-- ====================================
+     PRESS / MEDIA
+==================================== -->
+
+<section id="press" class="story-section hidden">
+
+    <div class="story-text">
+
+        <h2>BLAQNEM PRESS KIT</h2>
+
+        <p class="story-intro">
+            Official artist details for media, promoters, collaborators and industry contacts.
+        </p>
+
+        <dl class="press-details">
+            <div><dt>Name</dt><dd>Chukwuma Francis Chibuikem</dd></div>
+            <div><dt>Stage Name</dt><dd>Blaqnem</dd></div>
+            <div><dt>Date of Birth</dt><dd>6 October 2004</dd></div>
+            <div><dt>State of Origin</dt><dd>Enugu State, Nigeria</dd></div>
+            <div><dt>Place of Birth</dt><dd>Gwagwalada, Abuja, Nigeria</dd></div>
+            <div><dt>Active Since</dt><dd>2020</dd></div>
+            <div><dt>Genres</dt><dd>Hip-Hop, Rap, Afrodrill, Afrobeats</dd></div>
+            <div><dt>Height</dt><dd>6'2" (188 cm)</dd></div>
+        </dl>
+
+    </div>
+
+    <div class="story-image">
+        <img src="images/blaqqqqqqqqqqqqq.JPG" alt="Blaqnem official press portrait for media and music publications" loading="lazy">
+    </div>
+
+    <a href="press/Blaqnem_EPK_2026.pdf" target="_blank" rel="noopener">
+    Download Press Kit
+</a>
+
+</section>
+
+<!-- ====================================
      CONNECT
 ==================================== -->
 
@@ -667,7 +726,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
     <p class="copyright">
 
-        © 2026 Blaqnem. All Rights Reserved.
+        © 2026 Blaqnem. All Rights Reserved. Official website of Nigerian rapper Blaqnem.
 
     </p>
 
