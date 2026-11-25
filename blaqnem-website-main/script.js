@@ -33,6 +33,27 @@ const youtubeLink = document.querySelector(".youtube-link");
 
 const songs = {
 
+    badnessupgrade: {
+        spotify: "https://open.spotify.com/track/52sqAulUqk0stJuQAy4QKA?si=73zOd0ibQU-eU7YbHgCTgA&utm_source=copy-link",
+        apple: "https://music.apple.com/ng/album/badness-upgrade/6830788711?i=6830788712",
+        audiomack: "https://audiomack.com/blaqnem/song/badness-upgrade?share-user-id=75347139",
+        youtube: "https://youtube.com/shorts/R82fu67pSBc?si=4ITyypnRQDZCwsts"
+    },
+
+    testimony: {
+        spotify: "https://open.spotify.com/track/3oSSie3xpPdbWjZyybzJx4?si=UMoaLi91RAyFr6lS_t6xfQ&utm_source=copy-link",
+        apple: "https://music.apple.com/ng/album/testimony/6805898243?i=6805898244",
+        audiomack: "https://audiomack.com/blaqnem/song/testimony",
+        youtube: "https://youtu.be/z_ulqSeDiFw?si=FLxLMG1iGaj_nyVE"
+    },
+
+    kutunkuboys: {
+        spotify: "https://open.spotify.com/album/4LBwb6bddzStjDEmZxARrs?si=Ufz5PhINRxSpx1m7No_5gg&utm_source=copy-link",
+        apple: "https://music.apple.com/ng/album/kutunku-boys-single/6819248834",
+        audiomack: "https://audiomack.com/blaqnem/album/kutunku-boys-1?share-user-id=75347139",
+        youtube: "https://youtube.com/playlist?list=OLAK5uy_kDQYsFcgf-Qp-5h9Wry_sxAjus8jgzHv4&si=Hv66BcrJhNE4Vv4J"
+    },
+
     lucy: {
 
         spotify: "https://open.spotify.com/track/5BRr8ajyxiRVK3EdYIlrRg?si=ixPIKKF8R-WnXPN4rMnoSQ&utm_source=copy-link&context=spotify%3Aalbum%3A4oD45LwytpuUiNJn2IoalT",
